@@ -1,0 +1,25 @@
+.contaner,
+.container-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+
+.card,
+.card2 {
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+}
